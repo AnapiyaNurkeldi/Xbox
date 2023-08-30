@@ -1,0 +1,150 @@
+// default scss:
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+body  {
+    margin: 0;
+    padding: 0;
+    // background-color: #373A3C !important;
+    font-family: 'Helvetica Neue', sans-serif;
+                                                
+}
+.active-nav {
+    color: white !important;
+}
+
+
+// header styles
+.container {
+    max-width: 1400px;
+    margin: 0;
+    header {
+        max-width: 1400px;
+        margin: 0;
+        nav {
+            padding: 10px 25px;
+            background-color: #373A3C !important;
+            ul {
+                li {
+                    margin-left: 30px;
+                    a {
+                        color: rgba(255, 255, 255, 0.50);
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                    input {
+                        border-radius: 4px;
+                        border: 1px solid #CCC;
+                        background: #FFF;
+                        height: 38px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .active {
+            background-color: #8DD83D;
+        }
+        .carousel-inner {
+            .carousel-caption {
+                margin-left: 580px;
+                margin-bottom: 110px;
+                text-align: start;
+                h5 {
+                    margin-top: -10px;
+                }
+                button {
+                    width: 136px;
+                    height: 38px;
+                    flex-shrink: 0;  
+                    font-size: 14px;
+                    margin-top: 150px;
+                    &.watch {
+                        border-radius: 4px;
+                        background: #8DD83D;
+                        border-color: #8DD83D;
+                    }
+                    &.explore {
+                        border-radius: 4px;
+                        background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+                        border-color: #373A3C;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .value {
+        .content {
+            background-color: #373A3C;
+            color: rgb(184, 185, 185); // Greenish variant of #373A3C
+            border-bottom: 2px solid rgba(179, 179, 179, 0.5); 
+            height: 800px;  
+           
+           .texts {
+                margin-top: 80px;
+                color: white;
+                h1 {
+                    margin-top: 20px;
+                }
+                h2  {
+                    margin-top: -10px;
+                }
+            }
+            
+          
+            .custom-card {
+                width: 320px;
+                height: 380px;
+                margin-top: 70px;
+                margin-left: 45px;
+                justify-content: center;
+                align-items: center;
+                img.mid {
+                    width: 209px;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                   
+                }
+                .card-body {
+                    align-items: start;
+                    margin-right: 60px;
+                    width: 258px;
+                    h5 {
+                        color: #435766;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 200;
+                        line-height: normal;
+                    }
+                    p {
+                        margin-top: 16px;
+                        color: #435766;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                    }
+                    &.mix{
+                        margin-top: 25px;
+                    }
+                    &.bottom {
+                        margin-top: -30px;
+                    }
+                }
+                button {
+                    width: 278px;
+                    height: 60px;
+                    border-radius: 4px;
+                    background: #8DD83D;
+                    border-color: #8DD83D;
+                    margin-bottom: 15px;
+                }
+               } 
+           
+        }
+    }
+}
+

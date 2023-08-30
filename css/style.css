@@ -1,0 +1,137 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.active-nav {
+  color: white !important;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0;
+}
+.container header {
+  max-width: 1400px;
+  margin: 0;
+}
+.container header nav {
+  padding: 10px 25px;
+  background-color: #373A3C !important;
+}
+.container header nav ul li {
+  margin-left: 30px;
+}
+.container header nav ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.container header nav ul li a:hover {
+  color: white;
+}
+.container header nav ul li input {
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  height: 38px;
+}
+.container main .active {
+  background-color: #8DD83D;
+}
+.container main .carousel-inner .carousel-caption {
+  margin-left: 580px;
+  margin-bottom: 110px;
+  text-align: start;
+}
+.container main .carousel-inner .carousel-caption h5 {
+  margin-top: -10px;
+}
+.container main .carousel-inner .carousel-caption button {
+  width: 136px;
+  height: 38px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 14px;
+  margin-top: 150px;
+}
+.container main .carousel-inner .carousel-caption button.watch {
+  border-radius: 4px;
+  background: #8DD83D;
+  border-color: #8DD83D;
+}
+.container main .carousel-inner .carousel-caption button.explore {
+  border-radius: 4px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#686C6F), to(#373A3C));
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-color: #373A3C;
+}
+.container .value .content {
+  background-color: #373A3C;
+  color: rgb(184, 185, 185);
+  border-bottom: 2px solid rgba(179, 179, 179, 0.5);
+  height: 800px;
+}
+.container .value .content .texts {
+  margin-top: 80px;
+  color: white;
+}
+.container .value .content .texts h1 {
+  margin-top: 20px;
+}
+.container .value .content .texts h2 {
+  margin-top: -10px;
+}
+.container .value .content .custom-card {
+  width: 320px;
+  height: 380px;
+  margin-top: 70px;
+  margin-left: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .value .content .custom-card img.mid {
+  width: 209px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container .value .content .custom-card .card-body {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-right: 60px;
+  width: 258px;
+}
+.container .value .content .custom-card .card-body h5 {
+  color: #435766;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.container .value .content .custom-card .card-body p {
+  margin-top: 16px;
+  color: #435766;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.container .value .content .custom-card .card-body.mix {
+  margin-top: 25px;
+}
+.container .value .content .custom-card .card-body.bottom {
+  margin-top: -30px;
+}
+.container .value .content .custom-card button {
+  width: 278px;
+  height: 60px;
+  border-radius: 4px;
+  background: #8DD83D;
+  border-color: #8DD83D;
+  margin-bottom: 15px;
+}
